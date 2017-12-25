@@ -37,4 +37,4 @@ docker run -d -p 8787:8787 rockerjp/tidyverse
 -->
 
 ## ライセンス
-このDockerfileは GPL 2によりライセンスされています。
+このDockerfileは MIT によりライセンスされています。
