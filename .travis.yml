@@ -1,0 +1,14 @@
+sudo: required
+
+services:
+  - docker
+
+## Make sure that this container image is built without error
+before_install: 
+  - docker build ./ -t tested_image
+
+## A few simple / crude tests
+script:
+  - docker run -d --name tested_container tested_image
+  - sleep 5 && docker ps | grep tested_container
+  - docker rm -f $(docker ps -a -q)
