@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/tokyor/rstudio.svg?branch=master)](https://travis-ci.org/tokyor/rstudio)
-
 # rocker-jp/tidyverse
+
+[![Build Status](https://travis-ci.org/tokyor/rstudio.svg?branch=master)](https://travis-ci.org/tokyor/rstudio)
 
 ## This repository is designed for Japanese only, sorry!
 
