@@ -1,4 +1,4 @@
-FROM rocker/tidyverse:latest
+FROM rocker/tidyverse:latest@sha256:ce3b344564b5d58bfba6244b8773a16a593552bb0ee6fbe491ab4fa9fd729e94
 
 # Change environment to Japanese(Character and DateTime)
 ENV LANG ja_JP.UTF-8
